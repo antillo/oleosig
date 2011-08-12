@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>
+    </SchemaVersion>
+    <ProjectGuid>{B2B208D6-9FBD-45FD-B62B-4BB01BA544CC}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Oleosig</RootNamespace>
+    <AssemblyName>capadatos</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Windows</MyType>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>capadatos.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>capadatos.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Configuration" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="aclaradoresTableAdapter.vb" />
+    <Compile Include="albaranTableAdapter.vb" />
+    <Compile Include="almazaraTableAdapter.vb" />
+    <Compile Include="analisisTableAdapter.vb" />
+    <Compile Include="CampagnasTableAdapter.vb" />
+    <Compile Include="clientesTableAdapter.vb" />
+    <Compile Include="conductorTableAdapter.vb" />
+    <Compile Include="cConfDatos.vb" />
+    <Compile Include="detallesLoteAceiteTableAdapter.vb" />
+    <Compile Include="detallesOpBdgTableAdapter.vb" />
+    <Compile Include="detallesPartidasAceiteTablaAdapter.vb" />
+    <Compile Include="marcasTableAdapter.vb" />
+    <Compile Include="oleosigDB.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>oleosigDB.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="terminosIneTableAdapter.vb" />
+    <Compile Include="TicketDelimTableAdapter.vb" />
+    <Compile Include="cfgTicketsFijoTableAdapter.vb" />
+    <Compile Include="cosecheroTableAdapter.vb" />
+    <Compile Include="CeAlbaran.vb" />
+    <Compile Include="CeAnalisis.vb" />
+    <Compile Include="CeDetallesAlbaran.vb" />
+    <Compile Include="CeDetallesOpFiltrado.vb" />
+    <Compile Include="CeRendTicket.vb" />
+    <Compile Include="filtroTableAdapter.vb" />
+    <Compile Include="detallesOpFabricaTableAdapter.vb" />
+    <Compile Include="envasadoTableAdapter.vb" />
+    <Compile Include="CeOpFiltrado.vb" />
+    <Compile Include="CeProcedencias.vb" />
+    <Compile Include="ImportacionTableAdapter.vb" />
+    <Compile Include="orden_depositosDataTableAdapter.vb" />
+    <Compile Include="TableAdapterManager.vb" />
+    <Compile Include="depositosTableAdapter.vb" />
+    <Compile Include="loteAceiteTableAdapter.vb" />
+    <Compile Include="LoteAceitunaTableAdapter.vb" />
+    <Compile Include="ConfigDB.vb" />
+    <Compile Include="OpAclaradoTableAdapter.vb" />
+    <Compile Include="opbodegaTableAdapter.vb" />
+    <Compile Include="CBaseDatos.vb" />
+    <Compile Include="opfabricaTableAdapter.vb" />
+    <Compile Include="opFiltradoTableAdapter.vb" />
+    <Compile Include="OpOrujoTableAdapter.vb" />
+    <Compile Include="partAceiteTableAdapter.vb" />
+    <Compile Include="parAceitunaTableAdapter.vb" />
+    <Compile Include="procedenciasTableAdapter.vb" />
+    <Compile Include="variedadesTableAdapter.vb" />
+    <Compile Include="recoleccionTableAdapter.vb" />
+    <Compile Include="terminosTableAdapter.vb" />
+    <Compile Include="usuariosTableAdapter.vb" />
+    <Compile Include="vehiculosTableAdapter.vb" />
+    <Compile Include="eAlbaran.vb" />
+    <Compile Include="eAlmazara.vb" />
+    <Compile Include="eAnalisis.vb" />
+    <Compile Include="eDetallesAlbaran.vb" />
+    <Compile Include="eDetallesOpFiltrado.vb" />
+    <Compile Include="oleosigDB.vb">
+      <DependentUpon>oleosigDB.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="eOpFiltrado.vb" />
+    <Compile Include="eOrganoleptico.vb" />
+    <Compile Include="eProcedencias.vb" />
+    <Compile Include="eRendTicket.vb" />
+    <Compile Include="tolvasTableAdapter.vb" />
+    <Compile Include="listaBase.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="oleosigDB.xsc">
+      <DependentUpon>oleosigDB.xsd</DependentUpon>
+    </None>
+    <None Include="oleosigDB.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>oleosigDB.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="oleosigDB.xss">
+      <DependentUpon>oleosigDB.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\DataSources\CeTanque.datasource" />
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
