@@ -24,10 +24,10 @@
     <IsWebBootstrapper>true</IsWebBootstrapper>
     <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
-    <ManifestCertificateThumbprint>278DE2A35A0D6CCD7600B25ECA351B4947EA879D</ManifestCertificateThumbprint>
-    <ManifestKeyFile>Oleosig_2_TemporaryKey.pfx</ManifestKeyFile>
+    <ManifestCertificateThumbprint>0F8F2A05BA5CD9E3BA52D8E4D6E76227CEDBCE98</ManifestCertificateThumbprint>
+    <ManifestKeyFile>Oleosig_TemporaryKey.pfx</ManifestKeyFile>
     <GenerateManifests>true</GenerateManifests>
-    <SignManifests>true</SignManifests>
+    <SignManifests>false</SignManifests>
     <UpgradeBackupLocation>
     </UpgradeBackupLocation>
     <OldToolsVersion>3.5</OldToolsVersion>
@@ -86,7 +86,8 @@
     <SignAssembly>false</SignAssembly>
   </PropertyGroup>
   <PropertyGroup>
-    <AssemblyOriginatorKeyFile>Oleosig_2_TemporaryKey.pfx</AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="itextsharp">
@@ -553,8 +554,6 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
     <None Include="loading-gif-animation.gif" />
-    <None Include="Oleosig_1_TemporaryKey.pfx" />
-    <None Include="Oleosig_2_TemporaryKey.pfx" />
     <None Include="Resources\x_office_spreadsheet.png" />
     <None Include="Resources\dialog_close.png" />
     <None Include="Resources\document.png" />
