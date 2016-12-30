@@ -147,11 +147,11 @@ Friend Class frminicial
 
 
     Private Sub mncampañas_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles mncampañas.Click
-        Dim vCampañas As frmCampañas
+        Dim vCampañas As frmCampagnas
 
         CierraTodosDocumentos()
 
-        vCampañas = New frmCampañas
+        vCampañas = New frmCampagnas
         vCampañas.MdiParent = Me
 
         vCampañas.Show()

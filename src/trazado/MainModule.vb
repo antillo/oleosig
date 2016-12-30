@@ -20,7 +20,7 @@ Module MainModule
 
     Public Sub carga_campañas()
 
-        frmCampañas.ShowDialog()
+        frmCampagnas.ShowDialog()
 
     End Sub
 

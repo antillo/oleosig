@@ -231,11 +231,11 @@
     <Compile Include="frmAnalisis.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmCampañas.Designer.vb">
+    <Compile Include="frmCampagnas.Designer.vb">
       <SubType>Code</SubType>
-      <DependentUpon>frmCampañas.vb</DependentUpon>
+      <DependentUpon>frmCampagnas.vb</DependentUpon>
     </Compile>
-    <Compile Include="frmCampañas.vb">
+    <Compile Include="frmCampagnas.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmCfgImportTickets.Designer.vb">
@@ -453,8 +453,8 @@
     <EmbeddedResource Include="frmAnalisis.resX">
       <DependentUpon>frmAnalisis.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmCampañas.resX">
-      <DependentUpon>frmCampañas.vb</DependentUpon>
+    <EmbeddedResource Include="frmCampagnas.resX">
+      <DependentUpon>frmCampagnas.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmCfgImportTickets.resx">
       <DependentUpon>frmCfgImportTickets.vb</DependentUpon>
